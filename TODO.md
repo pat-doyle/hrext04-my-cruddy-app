@@ -47,13 +47,13 @@
   *(5) add due date
   *(7) time stamps (moment.js)
   (5) format the display of the items in a list (need to add more detail)
-  (??) fix the layout
+  (10) fix the layout //from a perfectionist approach
   (7) color coded priority
-  highlight certain items
-  mouse over to see details
-  ability to select and delete multiple items (checkbox?)
-  add status/priorty and allow for sorting based on status/priority
-  Item categories
+  (5)highlight certain items //based on user selection of priority
+  (5)mouse over to see details
+  (6)ability to select and delete multiple items (checkbox?)
+  (9)add status/priorty and allow for sorting based on status/priority
+  (7)Item categories //more user input
   ability to add/leave comments on item
   upload files/images
   share item
@@ -63,17 +63,17 @@
   secret corgi
   delete item confirmation
   fillet edges of boxes
-  font changes/choices? (google fonts)
+  (3)font changes/choices? (google fonts)
   Panic Button
-  Highlight based on status/priority/due date
+  (5)Highlight based on status/priority/due date
   options page (ability to set/toggle options)
   show deleted items and allow for undelete
-  pagination (if more than 10 show a next button)
+  (6)pagination (if more than 10 show a next button)
   category pages (not really pages, just a show/hide trick)
-  strike-through completed/deleted items (styling)
+  (4)strike-through completed/deleted items (styling)
   add more items button, that shows another input section allowing for multiple items to be added at once
   Fun stuff
-  auto-complete when searching/filtering
+  (7)auto-complete when searching/filtering
 
 
 
