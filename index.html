@@ -9,16 +9,75 @@
             integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
             crossorigin="anonymous"></script>
     <script src="app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.21/c3.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.21/c3.js"></script>
 
   </head>
   <body>
-
-  <input type="text" class="user-input-title" placeholder="Enter the Title">
-  <textarea class="user-input-body" placeholder="Enter the body of text"></textarea>
-
-  <button class="add-text-btn">add text</button>
-  <button class="del-text-btn">delete text</button>
+  <header>
+    <h1 id="title">Grocery List</h1>
+  </header>
+  <form>
+    <fieldset>
+      <legend>What Do You Need to Buy Today?</legend>
+      <input type="text" class="user-input-title" placeholder="What do you need?"><br>
+      <textarea class="user-input-body" placeholder="What are you using it for?"></textarea><br>
+      <div id="first-half">
+        <div>
+         <input type="radio" id="produce" value="produce" name="category">
+         <label for="produce">Produce</label>
+        </div>
+        <div>
+         <input type="radio" id="beverages" value="beverages" name="category">
+         <label for="beverages">Beverages</label>
+        </div>
+        <div>
+         <input type="radio" id="dairy" value="dairy" name="category">
+         <label for="dairy">Dairy</label>
+        </div>
+        <div>
+         <input type="radio" id="meat" value="meat" name="category">
+         <label for="meat">Meat</label>
+        </div>
+      </div>
+      <div id="second-half">
+        <div>
+         <input type="radio" id="canned" value="canned" name="category">
+         <label for="canned">Canned Goods</label>
+        </div>
+        <div>
+         <input type="radio" id="paper" value="paper" name="category">
+         <label for="paper">Paper Goods</label>
+        </div>
+        <div>
+         <input type="radio" id="personal" value="personal" name="category">
+         <label for="personal">Personal Care</label>
+        </div>
+        <div>
+         <input type="radio" id="misc" value="misc" name="category">
+         <label for="misc">Misc.</label>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+  <button class="add-text-btn btn">Add Item</button>
+  <button class="del-text-btn btn">Delete Item</button>
+  <button class="reset-text-btn btn">Reset List</button>
+  <div class="sidenav">
+    <p class="item-list produce">Produce</p>
+    <p class="item-list beverages">Beverages</p>
+    <p class="item-list dairy">Dairy</p>
+    <p class="item-list meat">Meat</p>
+    <p class="item-list canned">Canned Goods</p>
+    <p class="item-list paper">Paper Goods</p>
+    <p class="item-list personal">Personal Care</p>
+    <p class="item-list misc">Misc</p>
+    <p class="item-list" id="restore">Show All</p>
+  </div>
 
   <div class="display"></div>
+  <div id="chart"></div>
   </body>
 </html>

@@ -1,0 +1,94 @@
+div{
+	font-family: Indie Flower;
+	font-size: 24px;
+	width: 50%;
+}
+.display:nth-child(even){
+	background-color: rgb(222, 230, 242);
+}
+.display{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	margin-left: 160px;
+	padding: 0px 10px;
+}
+#title{
+	font-family: Indie Flower;
+	text-align: center;
+}
+.sidenav{
+	height: auto;
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+form{
+	margin-left: 160px;
+  width: 710px;
+	/*padding: 0px 10px;*/
+}
+button{
+	margin-left: 165px;
+	padding: 0px 10px;
+}
+.tooltiptext{
+	visibility: hidden;
+}
+.display-item:hover .tooltiptext{
+	visibility: visible;
+}
+.clicked{
+  text-decoration: line-through;
+}
+
+.item-list{
+  height: 21px;
+}
+#first-half{
+  display: inline-block;
+  width: 50%;
+}
+#second-half{
+  display: inline-block;
+  float: right;
+  width: 50%;
+}
+h1{
+  width: 800px;
+}
+.btn{
+  height: 30px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+.user-input-title{
+  height: 24px;
+  font-size: 15px;
+  margin-left: 21%;
+  margin-bottom: 10px;
+}
+.user-input-body{
+  height: 26px;
+  width: 200px;
+  font-size: 15px;
+  margin-left: 21%;
+}
+
+body{
+  background-image: radial-gradient(circle, #71eed6, #62ddc0, #55cca9, #48bc94, #3dab7e);
+}
+
+
+
+
+
+
+
+
+

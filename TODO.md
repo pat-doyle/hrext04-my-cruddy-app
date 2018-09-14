@@ -75,6 +75,8 @@
   Fun stuff
   (7)auto-complete when searching/filtering
 
+  add a chart based on different categories whoing percentages? //c3 would help w/ that
+
 
 
 
