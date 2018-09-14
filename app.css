@@ -84,6 +84,14 @@ body{
   background-image: radial-gradient(circle, #71eed6, #62ddc0, #55cca9, #48bc94, #3dab7e);
 }
 
+img{
+  margin-left: 183px;
+  margin-top: 25px;
+  visibility: hidden;
+}
+.visible{
+  visibility: visible;
+}
 
 
 

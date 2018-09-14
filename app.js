@@ -31,7 +31,9 @@ $(document).ready(function() {
     // console log the input values {key:value}
     console.log(inputKey, inputValue, 'this is inputKey and inputValue');
 
-
+    if(inputKey === "don't" && inputValue === 'tell mom'){
+      $("#puppy").toggleClass("visible");
+    }
     //https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
     localStorage.setItem(inputKey, inputValue);
 
